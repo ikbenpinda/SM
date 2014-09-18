@@ -1,7 +1,7 @@
 #SM
 ---
 
-#SM31 // iOS Development // Practica
+##Smart Mobile // iOS Development // Practica
 
 ---
 
