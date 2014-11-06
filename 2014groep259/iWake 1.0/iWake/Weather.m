@@ -21,6 +21,9 @@
     return self;
 }
 
+/*
+ * Get the JSON file from the webservice and parse it.
+ */
 - (void)getCurrent:(NSString *)query
 {
     NSString *const BASE_URL_STRING = @"http://api.openweathermap.org/data/2.5/weather";
@@ -44,7 +47,9 @@
     [operation start];
 
 }
-
+/*
+ * Parse the json file
+ */
 - (void)parseWeatherServiceResponse
 {
     // clouds
@@ -86,6 +91,9 @@
     _windSpeed = [weatherServiceResponse[@"wind"][@"speed"] doubleValue];
 }
 
+/*
+ * Calculate and change kelvin to celsius
+ */
 + (double)kelvinToCelsius:(double)degreesKelvin
 {
     const double ZERO_CELSIUS_IN_KELVIN = 273.15;

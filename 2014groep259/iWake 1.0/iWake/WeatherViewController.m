@@ -37,9 +37,12 @@
     self.scrollView.contentSize = self.contentView.bounds.size;
 }
 
+/*
+ * Show the weather details of 'Eindhoven' in a alert pop up view
+ */
 - (IBAction)btShowWeather:(id)sender {
     
-    [theWeather getCurrent:@"Eindhoven"];  //nog veranderen naar local gps
+    [theWeather getCurrent:@"Eindhoven"];  //Still has to change to local gps
     
     NSString *report = [NSString stringWithFormat:
                         @"Weather in %@:\n"

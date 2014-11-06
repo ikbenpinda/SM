@@ -129,7 +129,7 @@ NSString *soundFilePath;
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    //radio buttons
+    // make some radio buttons(change properties of UIbuttons)
     [radioBtn1 setTag:0];
     [radioBtn1 setBackgroundImage:[UIImage imageNamed:@"checkedOff.png"] forState:UIControlStateNormal];
     [radioBtn1 setBackgroundImage:[UIImage imageNamed:@"checkedOn.png"] forState:UIControlStateSelected];
@@ -149,6 +149,10 @@ NSString *soundFilePath;
     soundFilePath = @"/alarm1.mp3";
 
 }
+/*
+ * When a radiobutton has been selected, the cases will be switched depending on the tag that has been 
+ * set in the radiobutton.
+ */
 -(void)radiobuttonSelected:(id)sender {
     switch ([sender tag]) {
         case 0:
