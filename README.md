@@ -1,7 +1,7 @@
 #SM
 ---
 
-##Smart Mobile // iOS Development // Practica
+##Smart Mobile // iOS Development // Project
 
 ---
 
