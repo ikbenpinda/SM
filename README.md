@@ -7,7 +7,7 @@
 
 Dit is de github voor de practica-opdrachten van SM31(iOS).
 
-_Voor het gebruik van github komt nog een handleiding._
+_De meest recente versie van ons project is iWake 1.0_
 
 ---
 
